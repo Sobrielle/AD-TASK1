@@ -1,14 +1,11 @@
 <?php
 session_start();
 
-// Initialize tasks array if it doesn't exist
 if (!isset($_SESSION['tasks'])) {
     $_SESSION['tasks'] = [];
 }
 
-// Handle form submission
 if (isset($_POST['add'])) {
-    // Verify all required fields are present
     if (!empty($_POST['taskName']) && !empty($_POST['mm']) && !empty($_POST['dd']) && !empty($_POST['yyyy']) && !empty($_POST['status'])) {
         $new_task = [
             'name' => $_POST['taskName'],
@@ -19,19 +16,17 @@ if (isset($_POST['add'])) {
         ];
         
         array_unshift($_SESSION['tasks'], $new_task);
-        
-        // Redirect to prevent form resubmission
+
         header("Location: ".$_SERVER['PHP_SELF']);
         exit();
     }
 }
 
-// Handle task deletion
 if (isset($_GET['delete'])) {
     $task_index = (int)$_GET['delete'];
     if (isset($_SESSION['tasks'][$task_index])) {
         unset($_SESSION['tasks'][$task_index]);
-        // Re-index array after deletion
+
         $_SESSION['tasks'] = array_values($_SESSION['tasks']);
     }
     header("Location: ".$_SERVER['PHP_SELF']);
@@ -46,7 +41,7 @@ if (isset($_GET['delete'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP TO-DO LIST</title>
     <link rel="stylesheet" href="./assets/css/toodoo.css">
-    <script src="./assets/js/toodoo.js"></script>
+    <!-- <script src="./assets/js/toodoo.js"></script> -->
 </head>
 <body>
     <div id="header"><img src="./assets/img/HEADER.png" alt="To-Do List Header"></div>
