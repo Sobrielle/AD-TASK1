@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  To avoid procrastination... or maybe not, but atleast the list is organize.
 </div>
 
 <br />
@@ -23,7 +23,7 @@
 
 ![](https://visit-counter.vercel.app/counter.png?page=sobrielle/AD-TASK1)
 
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+[![wakatime](https://wakatime.com/badge/user/ac75069c-0026-4e12-ace1-bf89d540faf8/project/de23e2b8-6d15-47c7-9839-fe97197f756e.svg)](https://wakatime.com/badge/user/ac75069c-0026-4e12-ace1-bf89d540faf8/project/de23e2b8-6d15-47c7-9839-fe97197f756e)
 
 ---
 
@@ -58,19 +58,16 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
-
-<!-- The following are just sample -->
-
-The TOODOO website is
+The TOODOO website is your typically helper in order for you to avoid procrastination and feeling
+of overwhelming backlogs. It is a list where you add the things you need to accomplish in a given
+time frame and also it is color coded depending on it's status to help you easily figure which one
+you need to do, which one you are currently doing and which one you already did.
 
 ### Key Components
 
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-
-- Authentication & Authorization
-- CRUD Operations for Invetory System
+- Listing of things to do
+- Colored Status update
+- Calendar due dates
 
 ### Technology
 
@@ -78,21 +75,7 @@ The TOODOO website is
 #### Language
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-
-#### Framework/Library
-![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=for-the-badge&logo=codeigniter&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-
-#### Databases
-![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-
-#### Deployment
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 ## Rules, Practices and Principles
 

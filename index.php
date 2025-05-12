@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP TO-DO LIST</title>
+    <title>AD- TO-DO LIST</title>
     <link rel="stylesheet" href="./page/assets/css/style.css">
 </head>
 <body>
